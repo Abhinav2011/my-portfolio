@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Poppins:wght@400;800&display=swap');
+
+
+* {
+  font-family: 'Fira Code', monospace;;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
