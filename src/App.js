@@ -6,8 +6,8 @@ import HomePage from "./components/home/HomePage";
 import Resume from "./components/resume/Resume";
 import Contact from "./components/contact/Contact";
 import Project from "./components/project/Project";
-import About from "./components/about/About";
-
+import About from "./components/about/AboutInfo";
+import Footer from "./components/footer/Footer";
 
 const App = () =>  {
   return (
@@ -22,6 +22,7 @@ const App = () =>  {
           <Route exact path="/contact" element={<Contact />}></Route>
           <Route exact path="/about" element={<About />}></Route>
         </Routes>
+        <Footer />
       </Router>
     </div>
   );

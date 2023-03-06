@@ -21,7 +21,7 @@ const HomePage = () => {
           </div>
         </div>
         <img
-          style={{ width: "25%", height: "25%" }}
+          style={{ width: "25%", height: "100vh", }}
           class="rounded w-36 h-36"
           src={developer}
           alt="Extra large avatar"

@@ -1,10 +1,11 @@
 import React from "react";
 import avatar from "../../assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
+
 const HomeBottomPage = () => {
   return (
     <div className="homeBottom">
-      <h1 style={{fontSize:"2.6rem"}}>Some Things <span style={{color:"purple"}}>About Me</span></h1>
+      <h1 style={{fontSize:"2.6rem",marginBottom:"3.5rem"}}>Some Things <span style={{color:"purple"}}>About Me</span></h1>
       <div className="introduction">
         <div className="intro-text">
           <p align="left">

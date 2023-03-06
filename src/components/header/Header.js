@@ -18,7 +18,7 @@ import { Link } from "react-router-dom";
 
 const pages = [
   { text: "Home", href: "/" },
-  // { text: "About", href: "/about" },
+  { text: "About", href: "/about" },
   { text: "Projects", href: "/projects" },
   { text: "Resume", href: "/resume" },
   { text: "Contact", href: "/contact" },
@@ -42,7 +42,7 @@ const Header = () => {
   };
 
   return (
-    <AppBar position="static">
+    <AppBar position="sticky">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <BoltIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
