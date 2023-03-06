@@ -18,20 +18,71 @@ body {
   
 }
 
+.home-parent {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .home-content {
   display: flex;
   flex-direction: column;
   justify-content: center ;
+  align-items: center;
   font-size: 7rem;
-  margin-top: 5%;
-  padding: 20px;
+  width: 50%;
 }
 
+
+.home-image {
+  align-items: right;
+}
 .text-animation {
   font-size: 35px;
   margin-top: 30px;
   display: flex;
   justify-content: center;
+}
+
+.resume-render {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.download-pdf {
+  border: 5px solid black;
+  margin-top: 16px;
+  font-size: large;
+}
+
+.introduction {
+  display: flex;
+}
+
+.intro-text {
+  font-size: large;
+  width: 70%;
+  margin-left: 6rem;
+  font-weight:800;
+  text-align: justify;
+}
+
+.homeBottom {
+ margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .introduction {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .intro-text {
+    margin: auto;
+    text-align: justify;
+  }
+  .intro-image{
+    margin: auto;
+  }
 }
 
 

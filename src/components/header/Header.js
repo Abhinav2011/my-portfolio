@@ -14,13 +14,21 @@ import HomeIcon from "@mui/icons-material/Home";
 import FolderCopyIcon from "@mui/icons-material/FolderCopy";
 import ArticleIcon from "@mui/icons-material/Article";
 import PermContactCalendarIcon from "@mui/icons-material/PermContactCalendar";
+import { Link } from "react-router-dom";
 
-const pages = ["Home", "Projects", "Resume", "Contact"];
+const pages = [
+  { text: "Home", href: "/" },
+  // { text: "About", href: "/about" },
+  { text: "Projects", href: "/projects" },
+  { text: "Resume", href: "/resume" },
+  { text: "Contact", href: "/contact" },
+];
 const pageIcons = [
   HomeIcon,
   FolderCopyIcon,
   ArticleIcon,
   PermContactCalendarIcon,
+  HomeIcon
 ];
 
 const Header = () => {
@@ -87,7 +95,9 @@ const Header = () => {
             >
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="left">{page}</Typography>
+                  <Typography textAlign="left">
+                    <Link href={page.href}>{page.text}</Link>
+                  </Typography>
                 </MenuItem>
               ))}
             </Menu>
@@ -116,7 +126,7 @@ const Header = () => {
             sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}
           >
             {pages.map((page, index) => {
-                const Icon = pageIcons[index];
+              const Icon = pageIcons[index];
               return (
                 <div
                   style={{
@@ -136,11 +146,13 @@ const Header = () => {
                       fontSize: 16,
                       display: "flex",
                       alignItems: "center",
-                      marginRight: "1.5rem"
+                      marginRight: "1.5rem",
                     }}
                   >
-                    <Icon style={{marginRight:"5px"}}/>
-                    {page}
+                    <Icon style={{ marginRight: "5px" }} />
+                    <Link to={page.href}>
+                      <Typography color="white">{page.text}</Typography>
+                    </Link>
                   </Button>
                 </div>
               );
