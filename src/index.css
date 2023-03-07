@@ -104,6 +104,25 @@ body {
   margin:auto;
 }
 
+.github-graph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.github-button {
+  display: flex;
+  justify-content: space-between;
+}
+
+.single-card {
+  transform: scale(0.8,0.8);
+  box-shadow: 5px 5px 30px rgba(7, 73, 228, 0.4) !important;
+}
+.single-card:hover{
+  transform: scale(0.9,0.9);
+  box-shadow: 5px 5px 30px rgba(7, 73, 228, 0.6) !important;
+}
 @media screen and (max-width: 768px) {
   .introduction {
     flex-direction: column;
