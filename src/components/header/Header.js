@@ -10,22 +10,26 @@ import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 import BoltIcon from "@mui/icons-material/Bolt";
-import HomeIcon from "@mui/icons-material/Home";
-import FolderCopyIcon from "@mui/icons-material/FolderCopy";
-import ArticleIcon from "@mui/icons-material/Article";
 import { Link } from "react-router-dom";
+import FaceRoundedIcon from '@mui/icons-material/FaceRounded';
+import HomeRoundedIcon from '@mui/icons-material/HomeRounded';
+import FolderSharedRoundedIcon from '@mui/icons-material/FolderSharedRounded';
+import CallRoundedIcon from '@mui/icons-material/CallRounded';
+import {BsGithub} from "react-icons/bs";
 
 const pages = [
   { text: "Home", href: "/" },
   { text: "About", href: "/about" },
   { text: "Projects", href: "/projects" },
   { text: "Contact", href: "/contact" },
+  { text: "Fork Project", href:"https://github.com/Abhinav2011/my-portfolio" }
 ];
 const pageIcons = [
-  HomeIcon,
-  FolderCopyIcon,
-  ArticleIcon,
-  HomeIcon
+  HomeRoundedIcon,
+  FaceRoundedIcon,
+  FolderSharedRoundedIcon,
+  CallRoundedIcon,
+  BsGithub
 ];
 
 const Header = () => {
@@ -93,7 +97,7 @@ const Header = () => {
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
                   <Typography textAlign="left">
-                    <Link href={page.href}>{page.text}</Link>
+                    <Link to={page.href}>{page.text}</Link>
                   </Typography>
                 </MenuItem>
               ))}
@@ -116,7 +120,7 @@ const Header = () => {
               textDecoration: "none",
             }}
           >
-            LOGO
+            Abhinav Kumar
           </Typography>
           <Box
             justifyContent="flex-end"

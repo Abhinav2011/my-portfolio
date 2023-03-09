@@ -12,7 +12,7 @@ const Project = () => {
           fontWeight: "bold",
         }}
       >
-        My Recent <span style={{ color: "purple" }}>Projects</span>
+        My Recent <span style={{ color: "#32CD30" }}>Projects</span>
       </h1>
       <p>These are some of the projects that I have been working on my own time!!</p>
       <div className="project-cards">

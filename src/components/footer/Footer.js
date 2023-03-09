@@ -4,7 +4,7 @@ import {SiLeetcode} from "react-icons/si";
 
 const Footer = () => {
   return (
-    <footer class="p-4 bg-skyblue rounded-lg shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800">
+    <footer class="p-4 bg-skyblue rounded-lg shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800 footer">
       <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400" style={{fontSize:"medium",fontWeight:"bold"}}>
         Developed by Abhinav Kumar
       </span>
