@@ -15,22 +15,22 @@ const AboutInfo = () => {
           fontWeight: "bold",
         }}
       >
-        <span style={{ color: "purple" }}>About</span> Me
+        <span style={{ color: "#32CD30" }}>About</span> Me
       </h1>
       <div className="about-parent">
         <div className="about-text">
           <p style={{ textAlign: "justify" }}>
             Hi people, I am{" "}
-            <span style={{ color: "purple", fontWeight: "bold" }}>
+            <span style={{ color: "#32CD30", fontWeight: "bold" }}>
               Abhinav Kumar
             </span>{" "}
             from Jamshedpur,India. I did my B.Tech in Information Technology
             from{" "}
-            <span style={{ color: "purple", fontWeight: "bold" }}>
+            <span style={{ color: "#32CD30", fontWeight: "bold" }}>
               VIT Vellore
             </span>{" "}
             and currently I'm interning at{" "}
-            <span style={{ color: "purple", fontWeight: "bold" }}>
+            <span style={{ color: "#32CD30", fontWeight: "bold" }}>
               JP Morgan Chase & Co
             </span>
             .
@@ -70,7 +70,7 @@ const AboutInfo = () => {
           fontWeight: "bold",
         }}
       >
-        My <span style={{color:"purple"}}>Github</span> Contribution Graph
+        My <span style={{color:"#32CD30"}}>Github</span> Contribution Graph
       </h1>
       <br></br>
       <div className="github-graph">
@@ -79,6 +79,7 @@ const AboutInfo = () => {
           blockMargin={6}
           blockSize={12}
           fontSize={16}
+          color={"#32CD30"}
         />
       </div>
     </div>

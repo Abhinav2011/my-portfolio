@@ -2,7 +2,6 @@ import React from "react";
 import TypeAnimation from "./TypeAnimation";
 import HomeBottomPage from "./HomeBottomPage";
 import developer from "../../assets/developer.svg";
-import Particles from "react-tsparticles";
 
 const HomePage = () => {
   return (
@@ -27,7 +26,13 @@ const HomePage = () => {
               }}
             >
               I'M{" "}
-              <span style={{ color: "purple", position: "static" }}>
+              <span
+                style={{
+                  color: "#32CD30",
+                  position: "static",
+                  textDecoration: "",
+                }}
+              >
                 ABHINAV KUMAR
               </span>
             </h1>

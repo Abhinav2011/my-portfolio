@@ -19,7 +19,7 @@ const TechStack = () => {
         My{" "}
         <span
           style={{
-            color: "purple",
+            color: "#32CD30",
             marginTop: "3rem",
             fontFamily: "Fira Code",
             fontWeight: "bold",
@@ -33,7 +33,7 @@ const TechStack = () => {
           <Card raised className="item">
             {" "}
             <CgCPlusPlus
-              style={{ width: "100%", height: "auto", color: "" }}
+              style={{ width: "100%", height: "auto", color: "black" }}
             />{" "}
           </Card>
           <Card raised className="item">
