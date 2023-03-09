@@ -16,7 +16,7 @@ const SingleProjectCard = ({ projectDetails }) => {
         <a href={projectLink}>
           <Button>
             <div className="github-button">
-              <BsGithub /> Github Link
+              <BsGithub style={{marginRight:"1rem"}}/> Github Link
             </div>
           </Button>
         </a>

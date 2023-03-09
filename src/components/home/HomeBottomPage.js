@@ -1,26 +1,33 @@
 import React from "react";
 import avatar from "../../assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
+import { BsFillArrowRightSquareFill } from "react-icons/bs";
+import { FiDownloadCloud } from "react-icons/fi";
+import { Button } from "@mui/material";
 
 const HomeBottomPage = () => {
   return (
     <div className="homeBottom">
-      <h1 style={{fontSize:"2.6rem",marginBottom:"3.5rem"}}>Some Things <span style={{color:"purple"}}>About Me</span></h1>
+      <h1 style={{ fontSize: "2.6rem", marginBottom: "3.5rem" }}>
+        Some Things <span style={{ color: "purple" }}>About Me</span>
+      </h1>
       <div className="introduction">
         <div className="intro-text">
-          <p align="left">
-            I am Abhinav Kumar, currently interning at JP Morgan Chase as a
+          <p>
+            I am Abhinav Kumar, currently interning at{" "}
+            <span style={{ color: "purple" }}>JP Morgan Chase</span> as a
             Software Engineer
           </p>
           <br />
-          <p align="left">
-            I love working as a Full Stack Developer and My tech stack includes
+          <p>
+            I love working as a <span style={{color:"purple"}}>Full Stack Developer</span> and My tech stack includes
             NodeJs, SpringBoot, React, TypeScript.I am also familar with AWS and
             Docker.
           </p>
           <br />
-          <p align="left">
-            I love making side projects and learn about new technologies.
+          <p>
+            I love making side projects and learn about new{" "}
+            <span style={{ color: "purple" }}>technologies</span>.
           </p>
           <br />
         </div>
@@ -33,6 +40,24 @@ const HomeBottomPage = () => {
             ></img>
           </Tilt>
         </div>
+      </div>
+      <div className="downloadPdf">
+        <p className="downloadPdf-text">
+          Checkout my <span style={{color:"purple"}}>resume</span> for more about me.{" "}
+        </p>
+        <a
+          href="https://drive.google.com/file/d/1TXjhk2BqZ4UIA239ZTYBmgxa2ASgPctU/view?usp=sharing"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <Button
+            variant="contained"
+            color="success"
+            endIcon={<FiDownloadCloud />}
+          >
+            Resume
+          </Button>
+        </a>
       </div>
     </div>
   );

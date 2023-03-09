@@ -1,14 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code&family=Poppins:wght@400;800&display=swap");
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 * {
-  font-family: "Fira Code", monospace;  
+  font-family: "Fira Code", monospace;
 }
 
 body {
-  margin: 0;
+  
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -16,24 +16,20 @@ body {
   -moz-osx-font-smoothing: grayscale;
   
 }
-
-
 .home-parent {
   display: flex;
   justify-content: space-evenly;
-
 }
 
 .home-content {
   display: flex;
   flex-direction: column;
-  justify-content: center ;
+  justify-content: center;
   align-items: center;
   font-size: 7rem;
   width: 50%;
   height: 100vh;
 }
-
 
 .home-image {
   align-items: right;
@@ -65,25 +61,24 @@ body {
   font-size: large;
   width: 70%;
   margin-left: 6rem;
-  font-weight:800;
+  font-weight: 800;
   text-align: justify;
 }
 
 .homeBottom {
- margin-top: 20px;
+  margin-top: 20px;
 }
 
 .item {
-  transform:scale(0.7,0.7);
+  transform: scale(0.7, 0.7);
   padding: 5px !important;
   border-radius: 50px !important;
   box-shadow: 5px 5px 30px rgba(7, 73, 228, 0.4) !important;
 }
 
-.item:hover{
-  transform: scale(0.9,0.9);
+.item:hover {
+  transform: scale(0.9, 0.9);
   box-shadow: 5px 5px 30px rgba(7, 73, 228, 0.2) !important;
-  
 }
 
 .footer-contact > li {
@@ -91,17 +86,17 @@ body {
   justify-content: space-evenly;
 }
 
-
 .about-parent {
   display: flex;
   justify-content: space-evenly;
-  height:60vh;
+  height: 60vh;
 }
 
 .about-text {
   margin-left: 5rem;
   width: 50%;
-  margin:auto;
+  margin: auto;
+  font-weight: 800;
 }
 
 .github-graph {
@@ -116,12 +111,21 @@ body {
 }
 
 .single-card {
-  transform: scale(0.8,0.8);
+  transform: scale(0.8, 0.8);
   box-shadow: 5px 5px 30px rgba(7, 73, 228, 0.4) !important;
 }
-.single-card:hover{
-  transform: scale(0.9,0.9);
+
+.single-card:hover {
+  transform: scale(0.9, 0.9);
   box-shadow: 5px 5px 30px rgba(7, 73, 228, 0.6) !important;
+}
+
+.downloadPdf-text {
+  font-size: large;
+  width: 70%;
+  margin-left: 6rem;
+  font-weight: 800;
+  text-align: justify;
 }
 @media screen and (max-width: 768px) {
   .introduction {
@@ -132,7 +136,7 @@ body {
     margin: auto;
     text-align: justify;
   }
-  .intro-image{
+  .intro-image {
     margin: auto;
   }
 }

@@ -1,4 +1,3 @@
-import React from 'react'
 import leetcodeNotifier from "../../assets/leetcode.svg";
 
 const projectData = [

@@ -13,21 +13,18 @@ import BoltIcon from "@mui/icons-material/Bolt";
 import HomeIcon from "@mui/icons-material/Home";
 import FolderCopyIcon from "@mui/icons-material/FolderCopy";
 import ArticleIcon from "@mui/icons-material/Article";
-import PermContactCalendarIcon from "@mui/icons-material/PermContactCalendar";
 import { Link } from "react-router-dom";
 
 const pages = [
   { text: "Home", href: "/" },
   { text: "About", href: "/about" },
   { text: "Projects", href: "/projects" },
-  { text: "Resume", href: "/resume" },
   { text: "Contact", href: "/contact" },
 ];
 const pageIcons = [
   HomeIcon,
   FolderCopyIcon,
   ArticleIcon,
-  PermContactCalendarIcon,
   HomeIcon
 ];
 
@@ -42,7 +39,7 @@ const Header = () => {
   };
 
   return (
-    <AppBar position="sticky">
+    <AppBar position="sticky" >
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <BoltIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />

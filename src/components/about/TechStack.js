@@ -9,7 +9,6 @@ import {
 } from "react-icons/di";
 import { CgCPlusPlus } from "react-icons/cg";
 import { SiMysql } from "react-icons/si";
-import { BsGit } from "react-icons/bs";
 import { FaAws, FaDocker } from "react-icons/fa";
 import {SiSpringboot} from "react-icons/si";
 
