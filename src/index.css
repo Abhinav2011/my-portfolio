@@ -4,7 +4,7 @@
 @import "tailwindcss/utilities";
 
 * {
-  font-family: "Fira Code", monospace;
+  font-family: "Fira-Code", monospace;
 }
 
 body {
@@ -46,7 +46,6 @@ body {
   margin-top: 30px;
   display: flex;
   justify-content: center;
-  text-decoration: ;
 }
 
 .introduction {
@@ -144,6 +143,7 @@ body {
 .contact-text {
   font-size: larger;
 }
+
 @media screen and (max-width: 768px) {
   .introduction {
     flex-direction: column;
