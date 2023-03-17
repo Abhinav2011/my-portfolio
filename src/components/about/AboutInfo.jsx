@@ -56,8 +56,7 @@ const AboutInfo = () => {
           </p>
         </div>
         <img
-          style={{ width: "45%" }}
-          class="rounded"
+          className="rounded about-image"
           src={codeImage}
           alt="Extra large avatar"
         ></img>

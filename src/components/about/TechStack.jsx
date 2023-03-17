@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState,useEffect } from "react";
 import { Card } from "semantic-ui-react";
 import {
   DiJava,
@@ -13,6 +13,12 @@ import { FaAws, FaDocker } from "react-icons/fa";
 import {SiSpringboot} from "react-icons/si";
 
 const TechStack = () => {
+  const [width,setWidth] = useState(1200);
+
+  useEffect(() => {
+    setWidth(window.innerWidth);
+  },[]);
+
   return (
     <div className="techstack">
       <h1>
@@ -29,7 +35,7 @@ const TechStack = () => {
         </span>
       </h1>
       <div className="techstack-row">
-        <Card.Group itemsPerRow={5}>
+        <Card.Group itemsPerRow={width > 768 ? 5 : 2}>
           <Card raised className="item">
             {" "}
             <CgCPlusPlus

@@ -1,4 +1,9 @@
 import leetcodeNotifier from "../../assets/leetcode.svg";
+import transferMusic from "../../assets/transferMusic.svg";
+import ecommerce from "../../assets/ecommerce.svg";
+import group from "../../assets/group.svg";
+import voting from "../../assets/voting.svg";
+import phishing from "../../assets/phishing.svg";
 
 const projectData = [
     {
@@ -10,39 +15,35 @@ const projectData = [
     {
         title : "Transfer Music",
         description : "Web app which helps transfers your entire playlists from Youtube Music to Spotify.",
-        image : leetcodeNotifier,
+        image : transferMusic,
         projectLink : "https://github.com/Abhinav2011/Transfer-Music",
     },
     {
         title : "E-commerce-API",
         description : "E-commerce API made using NodeJS, express and MongoDB. Used JWT for user authentication.",
-        image : leetcodeNotifier,
+        image : ecommerce,
         projectLink : "https://github.com/Abhinav2011/E-commerce-API",
     },
     {
         title : "Blockchain crowdfunding platform",
         description : "Crowdfunding platform built on the Ethereum network. Decentralized system to raise funds for a campaign. Used NextJS for frontend and Solidity for backend.",
-        image : leetcodeNotifier,
+        image : group,
         projectLink : "https://github.com/Abhinav2011/crowdfund",
     },
     {
         title : "Blockchain voting platform",
         description : "A complete decentralized voting system built on the Ethereum network. Elections can be started on the platform and users can vote for candidates. Admin has the ability to check all elections and manage them.",
-        image : leetcodeNotifier,
+        image : voting,
         projectLink : "https://github.com/UIpyo",
     },
     {
         title : "Phishing URL checker",
         description : "Chrome extension which checks if a URL is a phishing link and informs the user the same and stops the user from visiting that page",
-        image : leetcodeNotifier,
+        image : phishing,
         projectLink : "https://github.com/Abhinav2011/Chrome-Extensions",
     },
-    {
-        title : "Phishing URL checker",
-        description : "Chrome extension which checks if a URL is a phishing link and informs the user the same and stops the user from visiting that page",
-        image : leetcodeNotifier,
-        projectLink : "https://github.com/Abhinav2011/Chrome-Extensions",
-    }
+  
+    
 
 ];
 
