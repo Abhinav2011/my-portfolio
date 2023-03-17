@@ -19,9 +19,13 @@ const HomeBottomPage = () => {
           </p>
           <br />
           <p>
-            I love working as a <span style={{color:"#32CD30"}}>Full Stack Developer</span> and My tech stack includes
-            NodeJs, SpringBoot, React, TypeScript.I am also familar with AWS and
+            I love working as a <span style={{ color: "#32CD30" }}>Full Stack Developer</span> and My tech stack includes
+            NodeJs, SpringBoot, React, TypeScript. I am also familar with AWS and
             Docker.
+          </p>
+          <br />
+          <p>
+            I am also proficient in C++, Java and love <span style={{ color: "#32CD30" }}>solving problems</span> involving data structures and algorithms.
           </p>
           <br />
           <p>
@@ -29,6 +33,9 @@ const HomeBottomPage = () => {
             <span style={{ color: "#32CD30" }}>technologies</span>.
           </p>
           <br />
+          <p>
+            Checkout my <span style={{ color: "#32CD30" }}>resume</span> for more about me.{" "}
+          </p>
         </div>
         <div className="intro-image">
           <Tilt>
@@ -41,9 +48,6 @@ const HomeBottomPage = () => {
         </div>
       </div>
       <div className="downloadPdf">
-        <p className="downloadPdf-text">
-          Checkout my <span style={{color:"#32CD30"}}>resume</span> for more about me.{" "}
-        </p>
         <a
           href="https://drive.google.com/file/d/1TXjhk2BqZ4UIA239ZTYBmgxa2ASgPctU/view?usp=sharing"
           target="_blank"
@@ -53,7 +57,7 @@ const HomeBottomPage = () => {
             variant="contained"
             color="success"
             endIcon={<FiDownloadCloud />}
-            style={{marginBottom:"50px"}}
+            style={{ marginBottom: "50px" }}
           >
             Resume
           </Button>

@@ -37,14 +37,25 @@ body {
   font-size: 7rem;
   width: 50%;
   height: 100vh;
+  font-weight: ;
+}
+
+.homepage-avatar {
+  width: 25%;
+  height: 100vh;
 }
 
 .home-image {
   align-items: right;
 }
+
+.heading-text {
+  position: relative;
+}
+
 .text-animation {
-  font-size: 35px;
-  margin-top: 30px;
+  font-size: 2rem;
+  margin-top: 2.5rem;
   display: flex;
   justify-content: center;
 }
@@ -102,10 +113,15 @@ body {
 }
 
 .about-text {
+  font-size: large;
   margin-left: 5rem;
   width: 50%;
   margin: auto;
   font-weight: 800;
+}
+
+.about-image {
+  width: 45%;
 }
 
 .github-graph {
@@ -122,20 +138,20 @@ body {
 .single-card {
   transform: scale(0.8, 0.8);
   box-shadow: 5px 5px 30px rgba(7, 73, 228, 0.4) !important;
+  background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147)) !important;
+  border-radius: 2rem !important;
+  border: 5px solid black !important;
 }
+.single-card-button{
+  background-color: green !important;
+}
+
 
 .single-card:hover {
   transform: scale(0.9, 0.9);
   box-shadow: 5px 5px 30px rgba(7, 73, 228, 0.6) !important;
 }
 
-.downloadPdf-text {
-  font-size: large;
-  width: 70%;
-  margin-left: 6rem;
-  font-weight: 800;
-  text-align: justify;
-}
 
 .contact-box {
   display: flex;
@@ -182,4 +198,26 @@ body {
   .intro-image {
     margin: auto;
   }
+  .footer-contact {
+    display: flex;
+    justify-content: center;
+  }
+  .home-parent {
+    flex-direction: column;
+
+  }
+  .home-content {
+    width: 0;
+    margin: auto;
+  }
+
+  .homepage-avatar {
+    width: 100%;
+  }
+
+  .downloadPdf {
+    margin-top: 2rem;
+  }
+
+
 }
