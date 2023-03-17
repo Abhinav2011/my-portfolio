@@ -1,13 +1,12 @@
 import React from "react";
 import avatar from "../../assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import { BsFillArrowRightSquareFill } from "react-icons/bs";
 import { FiDownloadCloud } from "react-icons/fi";
 import { Button } from "@mui/material";
 
 const HomeBottomPage = () => {
   return (
-    <div className="homeBottom">
+    <div className="homeBottom" >
       <h1 style={{ fontSize: "2.6rem", marginBottom: "3.5rem" }}>
         Some Things <span style={{ color: "#32CD30" }}>About Me</span>
       </h1>
@@ -54,6 +53,7 @@ const HomeBottomPage = () => {
             variant="contained"
             color="success"
             endIcon={<FiDownloadCloud />}
+            style={{marginBottom:"50px"}}
           >
             Resume
           </Button>
