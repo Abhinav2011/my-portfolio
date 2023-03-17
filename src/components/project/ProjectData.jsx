@@ -8,6 +8,12 @@ const projectData = [
         projectLink : "https://github.com/Abhinav2011/Leetcode-notifier",
     },
     {
+        title : "Transfer Music",
+        description : "Web app which helps transfers your entire playlists from Youtube Music to Spotify.",
+        image : leetcodeNotifier,
+        projectLink : "https://github.com/Abhinav2011/Transfer-Music",
+    },
+    {
         title : "E-commerce-API",
         description : "E-commerce API made using NodeJS, express and MongoDB. Used JWT for user authentication.",
         image : leetcodeNotifier,

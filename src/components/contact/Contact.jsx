@@ -8,6 +8,7 @@ import ListItemText from "@mui/material/ListItemText";
 import { BsGithub, BsLinkedin, BsTwitter } from "react-icons/bs";
 import { HiMailOpen } from "react-icons/hi";
 import { IconContext } from "react-icons";
+
 const Contact = () => {
   // const contactLinks = [
   //   {
@@ -44,7 +45,7 @@ const Contact = () => {
           <Box sx={{ width: "100%", maxWidth: 360 }}>
             <nav aria-label="main mailbox folders">
               <List>
-                <ListItem disablePadding>
+                <ListItem disablePadding  className="contact-list-item">
                   <ListItemButton  href="https://www.linkedin.com/in/abhinav-kumar-904254195/" target="_blank">
                     <ListItemIcon>
                       <BsLinkedin className="contact-icon" />
@@ -52,7 +53,7 @@ const Contact = () => {
                     <ListItemText primary="Linkedin" className="contact-text" />
                   </ListItemButton>
                 </ListItem>
-                <ListItem disablePadding>
+                <ListItem disablePadding className="contact-list-item">
                   <ListItemButton href="https://github.com/Abhinav2011" target="_blank">
                     <ListItemIcon>
                       <BsGithub className="contact-icon" />
@@ -60,7 +61,7 @@ const Contact = () => {
                     <ListItemText primary="Github" className="contact-text" />
                   </ListItemButton>
                 </ListItem>
-                <ListItem disablePadding>
+                <ListItem disablePadding className="contact-list-item">
                   <ListItemButton href="https://twitter.com/Abhinav36650041" target="_blank">
                     <ListItemIcon>
                       <BsTwitter className="contact-icon" />
@@ -68,7 +69,7 @@ const Contact = () => {
                     <ListItemText primary="Twitter" className="contact-text" />
                   </ListItemButton>
                 </ListItem>
-                <ListItem disablePadding>
+                <ListItem disablePadding className="contact-list-item">
                   <ListItemButton
                     onClick={() =>
                       (window.location = "mailto:abhi32eee@gmail.com")

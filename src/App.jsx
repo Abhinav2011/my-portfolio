@@ -1,6 +1,6 @@
 import "./App.css";
 import "./index.css";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import Header from "./components/header/Header";
 import HomePage from "./components/home/HomePage";
 import Contact from "./components/contact/Contact";
@@ -24,7 +24,7 @@ const App = () => {
           </Routes>
         </Router>
       </div>
-      {/* <Footer /> */}
+        <Footer />
     </div>
   );
 };

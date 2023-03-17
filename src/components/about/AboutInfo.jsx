@@ -70,11 +70,12 @@ const AboutInfo = () => {
           fontWeight: "bold",
         }}
       >
-        My <span style={{color:"#32CD30"}}>Github</span> Contribution Graph
+        My <span style={{ color: "#32CD30" }}>Github</span> Contribution Graph
       </h1>
       <br></br>
       <div className="github-graph">
         <GitHubCalendar
+          style={{ marginBottom: "50px" }}
           username="Abhinav2011"
           blockMargin={6}
           blockSize={12}

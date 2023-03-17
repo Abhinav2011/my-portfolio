@@ -11,25 +11,25 @@ import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 import BoltIcon from "@mui/icons-material/Bolt";
 import { Link } from "react-router-dom";
-import FaceRoundedIcon from '@mui/icons-material/FaceRounded';
-import HomeRoundedIcon from '@mui/icons-material/HomeRounded';
-import FolderSharedRoundedIcon from '@mui/icons-material/FolderSharedRounded';
-import CallRoundedIcon from '@mui/icons-material/CallRounded';
-import {BsGithub} from "react-icons/bs";
+import FaceRoundedIcon from "@mui/icons-material/FaceRounded";
+import HomeRoundedIcon from "@mui/icons-material/HomeRounded";
+import FolderSharedRoundedIcon from "@mui/icons-material/FolderSharedRounded";
+import CallRoundedIcon from "@mui/icons-material/CallRounded";
+import { BsGithub } from "react-icons/bs";
 
 const pages = [
   { text: "Home", href: "/" },
   { text: "About", href: "/about" },
   { text: "Projects", href: "/projects" },
   { text: "Contact", href: "/contact" },
-  { text: "Fork Project", href:"https://github.com/Abhinav2011/my-portfolio" }
+  { text: "Fork Project", href: "https://github.com/Abhinav2011/my-portfolio" },
 ];
 const pageIcons = [
   HomeRoundedIcon,
   FaceRoundedIcon,
   FolderSharedRoundedIcon,
   CallRoundedIcon,
-  BsGithub
+  BsGithub,
 ];
 
 const Header = () => {
@@ -43,7 +43,7 @@ const Header = () => {
   };
 
   return (
-    <AppBar position="sticky" >
+    <AppBar position="sticky" sx={{ backgroundColor: "#152b61" }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <BoltIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
@@ -137,20 +137,20 @@ const Header = () => {
                   }}
                 >
                   <Button
+                    className="header-buttons"
                     key={page}
                     onClick={handleCloseNavMenu}
                     sx={{
                       my: 2,
                       color: "white",
-                      display: "block",
+                      display: "flex",
                       fontFamily: "poppins",
                       fontSize: 16,
-                      display: "flex",
                       alignItems: "center",
                       marginRight: "1.5rem",
                     }}
                   >
-                    <Icon style={{ marginRight: "5px" }} />
+                    <Icon style={{ marginRight: "0.8rem" }} />
                     <Link to={page.href}>
                       <Typography color="white">{page.text}</Typography>
                     </Link>
