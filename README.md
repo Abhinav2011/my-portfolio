@@ -2,7 +2,7 @@
 
 My portfolio built using React JS
 
-![App Screenshot]()
+![App Screenshot](src/assets/githubImage.png)
 
 
 ## Demo
