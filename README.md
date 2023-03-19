@@ -4,6 +4,8 @@ My portfolio built using React JS
 
 ![App Screenshot](src/assets/githubImage.png)
 
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 
 ## Demo
 
