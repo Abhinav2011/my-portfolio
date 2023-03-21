@@ -7,28 +7,28 @@ import phishing from "../../assets/phishing.svg";
 
 const projectData = [
     {
-        title : "LeetCode Notifier",
-        description : "A discord bot which helps you in your leetcode journey. Built using NodeJs and DiscordJs.",
-        image : leetcodeNotifier,
-        projectLink : "https://github.com/Abhinav2011/Leetcode-notifier",
-    },
-    {
         title : "Transfer Music",
         description : "Web app which helps transfers your entire playlists from Youtube Music to Spotify.",
         image : transferMusic,
         projectLink : "https://github.com/Abhinav2011/Transfer-Music",
     },
     {
-        title : "E-commerce-API",
-        description : "E-commerce API made using NodeJS, express and MongoDB. Used JWT for user authentication.",
-        image : ecommerce,
-        projectLink : "https://github.com/Abhinav2011/E-commerce-API",
-    },
-    {
         title : "Blockchain crowdfunding platform",
         description : "Crowdfunding platform built on the Ethereum network. Decentralized system to raise funds for a campaign. Used NextJS for frontend and Solidity for backend.",
         image : group,
         projectLink : "https://github.com/Abhinav2011/crowdfund",
+    },
+    {
+        title : "LeetCode Notifier",
+        description : "A discord bot which helps you in your leetcode journey. Built using NodeJs and DiscordJs.",
+        image : leetcodeNotifier,
+        projectLink : "https://github.com/Abhinav2011/Leetcode-notifier",
+    },
+    {
+        title : "E-commerce-API",
+        description : "E-commerce API made using NodeJS, express and MongoDB. Used JWT for user authentication.",
+        image : ecommerce,
+        projectLink : "https://github.com/Abhinav2011/E-commerce-API",
     },
     {
         title : "Blockchain voting platform",
