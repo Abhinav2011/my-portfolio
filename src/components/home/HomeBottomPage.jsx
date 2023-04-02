@@ -4,7 +4,10 @@ import Tilt from "react-parallax-tilt";
 import { FiDownloadCloud } from "react-icons/fi";
 import { Button } from "@mui/material";
 
+const resumeURL = "https://drive.google.com/file/d/1ahsxf-lCTFqqF5amadW83EXtsNSWt8G5/view?usp=sharing";
+
 const HomeBottomPage = () => {
+
   return (
     <div className="homeBottom" >
       <h1 style={{ fontSize: "2.6rem", marginBottom: "3.5rem" }}>
@@ -49,7 +52,7 @@ const HomeBottomPage = () => {
       </div>
       <div className="downloadPdf">
         <a
-          href="https://drive.google.com/file/d/1TXjhk2BqZ4UIA239ZTYBmgxa2ASgPctU/view?usp=sharing"
+          href={resumeURL}
           target="_blank"
           rel="noreferrer"
         >
