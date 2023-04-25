@@ -37,3 +37,17 @@ Start the server
 ```bash
   npm start
 ```
+
+## Run using Docker
+
+Pull docker image
+
+```bash
+docker pull abhinav2011/abhinav-portfolio
+```
+
+Run the docker image
+
+```bash
+docker run -p 5173:5173 abhinav2011/abhinav-portfolio
+```
